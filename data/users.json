@@ -1,0 +1,127 @@
+{
+  "users": {
+    "265416708": {
+      "user_id": 265416708,
+      "username": "coach_pramuk",
+      "first_name": "Vitali",
+      "last_name": "Saskavets",
+      "last_seen": "2026-02-17 07:53"
+    },
+    "841364180": {
+      "user_id": 841364180,
+      "username": "DzianisByk",
+      "first_name": "Dzianis",
+      "last_name": "",
+      "last_seen": "2026-02-16 14:00"
+    },
+    "597542247": {
+      "user_id": 597542247,
+      "username": "chernov_by",
+      "first_name": "Сергей",
+      "last_name": "Чернов",
+      "last_seen": "2026-02-16 14:11"
+    },
+    "635417757": {
+      "user_id": 635417757,
+      "username": "",
+      "first_name": "Максим",
+      "last_name": "Царев",
+      "last_seen": "2026-02-16 18:44"
+    },
+    "336023975": {
+      "user_id": 336023975,
+      "username": "Eugene_svrd",
+      "first_name": "Евгений",
+      "last_name": "",
+      "last_seen": "2026-02-17 08:21"
+    },
+    "6538683776": {
+      "user_id": 6538683776,
+      "username": "stef1489",
+      "first_name": "stef",
+      "last_name": "",
+      "last_seen": "2026-02-17 08:27"
+    },
+    "768599845": {
+      "user_id": 768599845,
+      "username": "titys3456",
+      "first_name": "Дима",
+      "last_name": "Авдюкевич",
+      "last_seen": "2026-02-17 08:36"
+    },
+    "5161292812": {
+      "user_id": 5161292812,
+      "username": "m_sukhavei",
+      "first_name": "Міхась",
+      "last_name": "",
+      "last_seen": "2026-02-17 08:51"
+    },
+    "1096701973": {
+      "user_id": 1096701973,
+      "username": "",
+      "first_name": "Павел",
+      "last_name": "",
+      "last_seen": "2026-02-17 09:17"
+    },
+    "1336829336": {
+      "user_id": 1336829336,
+      "username": "",
+      "first_name": "Kristina",
+      "last_name": "Kravchuk",
+      "last_seen": "2026-02-17 12:04"
+    },
+    "971194217": {
+      "user_id": 971194217,
+      "username": "",
+      "first_name": "Max",
+      "last_name": "Zanko",
+      "last_seen": "2026-02-18 11:59"
+    }
+  },
+  "by_date": [
+    {
+      "user_id": 265416708,
+      "at": "2026-02-16 13:48"
+    },
+    {
+      "user_id": 841364180,
+      "at": "2026-02-16 14:00"
+    },
+    {
+      "user_id": 597542247,
+      "at": "2026-02-16 14:11"
+    },
+    {
+      "user_id": 635417757,
+      "at": "2026-02-16 18:44"
+    },
+    {
+      "user_id": 336023975,
+      "at": "2026-02-17 08:21"
+    },
+    {
+      "user_id": 6538683776,
+      "at": "2026-02-17 08:27"
+    },
+    {
+      "user_id": 768599845,
+      "at": "2026-02-17 08:36"
+    },
+    {
+      "user_id": 5161292812,
+      "at": "2026-02-17 08:51"
+    },
+    {
+      "user_id": 1096701973,
+      "at": "2026-02-17 09:17"
+    },
+    {
+      "user_id": 1336829336,
+      "at": "2026-02-17 12:04"
+    },
+    {
+      "user_id": 971194217,
+      "at": "2026-02-18 11:59"
+    }
+  ]
+}

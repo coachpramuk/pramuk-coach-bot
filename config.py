@@ -9,11 +9,11 @@ from pathlib import Path
 
 # Токен бота (получить у @BotFather в Telegram)
 # Рекомендуется задавать через переменную окружения
-BOT_TOKEN = (
-    os.getenv("RUNNING_BOT_TOKEN")
-    or os.getenv("TELEGRAM_BOT_TOKEN")
-    or os.getenv("TOKEN")
-)
+BOT_TOKEN = os.getenv("RUNNING_BOT_TOKEN")
+
+if not BOT_TOKEN:
+    raise RuntimeError("❌ RUNNING_BOT_TOKEN не задан")
+ 
 
 # Корень проекта
 BASE_DIR = Path(__file__).resolve().parent

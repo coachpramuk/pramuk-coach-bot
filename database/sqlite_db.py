@@ -125,3 +125,8 @@ class RunningClubDB(BaseDB):
         with self._conn() as c:
             cur = c.execute("SELECT term FROM terminology ORDER BY term")
             return [r[0] for r in cur.fetchall()]
+
+    def get_all_terminology(self) -> List[Dict[str, Any]]:
+        with self._conn() as c:
+            cur = c.execute("SELECT term, definition FROM terminology ORDER BY term")
+            return [{"term": r[0], "definition": r[1]} for r in cur.fetchall()]

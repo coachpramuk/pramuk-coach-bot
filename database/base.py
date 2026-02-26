@@ -50,3 +50,8 @@ class BaseDB(ABC):
     def get_all_terms(self) -> List[str]:
         """Список всех терминов (для подсказок)."""
         pass
+
+    @abstractmethod
+    def get_all_terminology(self) -> List[Dict[str, Any]]:
+        """Список всех терминов с определениями (для кнопок)."""
+        pass

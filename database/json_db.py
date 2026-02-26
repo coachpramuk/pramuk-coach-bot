@@ -126,3 +126,7 @@ class JsonDB(BaseDB):
     def get_all_terms(self) -> List[str]:
         """Список всех терминов."""
         return [item.get("term", "") for item in self._terminology if item.get("term")]
+
+    def get_all_terminology(self) -> List[Dict[str, Any]]:
+        """Список всех терминов с определениями."""
+        return list(self._terminology)

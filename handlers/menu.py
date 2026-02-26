@@ -3,7 +3,6 @@
 
 from telegram import Update
 from telegram.ext import ContextTypes, CommandHandler, MessageHandler, filters
-from handlers.terminology import show_terminology_list
 
 from config import ADMIN_IDS, WELCOME_MESSAGE
 from database.users_store import add_user, get_all_users
@@ -88,6 +87,7 @@ async def cmd_complex(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 async def cmd_terms(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Команда /terms — терминология."""
+    from handlers.terminology import show_terminology_list
     await show_terminology_list(update, context)
 
 
@@ -176,9 +176,9 @@ async def menu_button_router(update: Update, context: ContextTypes.DEFAULT_TYPE)
         from handlers.complexes import show_complexes_list
         await show_complexes_list(update, context)
         return
- if text == BTN_TERMINOLOGY:
-    from handlers.terminology import show_terminology_list
-    await show_terminology_list(update, context)
+    if text == BTN_TERMINOLOGY:
+        from handlers.terminology import show_terminology_list
+        await show_terminology_list(update, context)
         return
     if text == BTN_SEARCH:
         from handlers.search import show_search_prompt
